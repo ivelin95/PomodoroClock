@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </link>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Pomodoro Clock</h2>
+        </div>
+        <div class="pomodoro-body-top">
+            <div class="session-block">
+                <span>Sesion</span>
+                <div class="sesionN">25</div>
+                <button class="w3-button w3-small w3-circle w3-teal" id="plusN">+</button>
+                <button class="w3-button w3-small w3-circle w3-teal" id="minusN">-</button>
+            </div>
+            <div class="break-block">
+                <span>Break</span>
+                <div class="breakN">5</div>
+                <button class="w3-button w3-small w3-circle w3-teal" id="plusB">+</button>
+                <button class="w3-button w3-small w3-circle w3-teal" id="minusB">-</button>
+            </div>
+        </div>
+        <div class="pomodoro-body-bottom">
+            <div class="startBtn">
+                <input type="button"  class="btn" value="start" id="start">
+            </div>
+            <div class="stopBtn">
+                <input type="button" class="btn" value="stop" id="stop">
+            </div>
+            <div class="display">
+                <span id="min">25</span> :
+                <span id="sec">00</span>
+            </div>
+            <div class="pauseBtn">
+                <input type="button" class="btn" value="pause" id="pause">
+            </div>
+            <div class="refreshBtn">
+                <input type="button" class="btn" value="refresh" id="refresh">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js.js"></script>
+
+</html>

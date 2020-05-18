@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgba(8, 177, 255, 0), rgb(49, 8, 197))
+}
+.session-block{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    /* left: 15px; */
+    position: relative;
+    right: 5%;
+    font-size: larger;
+}
+.break-block{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    /* left: 15px; */
+    position: relative;
+    /* left: 44%; */
+    float: right;
+    left: 5%;
+    font-size: larger;
+}
+.pomodoro-body-top{
+    margin: auto;
+    width: 60%;
+    background-image: linear-gradient(to right, rgba(21, 180, 114, 0), rgb(118, 81, 251));
+    padding: 10px;
+    height: 120px;
+    background-color: paleturquoise;
+    opacity: 0.7;
+    transition: 0.4s;
+    border-radius: 100px;
+
+}
+
+.header{
+    text-align: center;
+    color:rgb(8, 114, 14);
+}
+.pomodoro-body-bottom{
+    display: block;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    left: 47%;
+}
+.btn{
+    outline: none;
+    border: none;
+    display: block;
+    width: 65px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(119, 191, 240);
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color:rgb(114, 175, 117);
+    
+}
+
+.startBtn{
+    position: relative;
+    /* left: 20px; */
+    right: 100px;
+    /* bottom: 6px; */
+    bottom: 60px;
+    
+}
+.stopBtn{
+    position: relative;
+    /* left: 20px; */
+    left: 100px;
+    /* bottom: 6px; */
+    bottom: 90px;
+}
+.pauseBtn{
+    position: relative;
+    /* left: 20px; */
+    right: 100px;
+    /* bottom: 6px; */
+    bottom: 85px;
+}
+.refreshBtn{
+    position: relative;
+    /* left: 20px; */
+    left: 100px;
+    bottom: 115px;
+    
+}
+.display{
+        /* border: solid; */
+        width: 136px;
+        height: 38px;
+        display: inline-block;
+        z-index: 2;
+        /* left: 22px; */
+        position: relative;
+        right: 39px;
+        /* top: 10px; */
+        bottom: 91px;
+        text-align: center;
+        font-size: xx-large;
+    }
+.startSession{
+    width: 136px;
+    height: 38px;
+    display: inline-block;
+    z-index: 2;
+    /* left: 22px; */
+    position: relative;
+    right: 39px;
+    /* top: 10px; */
+    bottom: 91px;
+    text-align: center;
+    font-size: xx-large;
+}
+
